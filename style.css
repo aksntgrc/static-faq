@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    color: #111827;
+    line-height: 1.7;
+}
+
+.faq-header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.faq-header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.faq-header p {
+    font-size: 16px;
+}
+
+.faq-content {
+    background-color: #f8f9fc;
+    padding: 60px 20px;
+}
+
+.faq-container {
+    max-width: 672px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-item {
+    padding: 0 0 34px;
+    margin-bottom: 34px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.faq-item h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+
+.faq-item ol,
+.faq-item ul {
+    padding-left: 24px;
+    margin-bottom: 22px;
+}
+
+.faq-item li {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.faq-item a {
+    color: #4778ff;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+
+    .faq-header {
+        padding: 50px 20px;
+    }
+
+    .faq-header h1 {
+        font-size: 30px;
+    }
+
+    .faq-content {
+        padding: 45px 24px;
+    }
+
+    .faq-item h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .faq-header {
+        padding: 40px 18px;
+    }
+
+    .faq-header h1 {
+        font-size: 26px;
+    }
+
+    .faq-header p {
+        font-size: 14px;
+    }
+
+    .faq-content {
+        padding: 35px 20px;
+    }
+
+    .faq-item h2 {
+        font-size: 21px;
+        margin-bottom: 18px;
+    }
+
+    .faq-item p,
+    .faq-item li {
+        font-size: 15px;
+    }
+
+    .faq-item {
+        padding-bottom: 26px;
+        margin-bottom: 26px;
+    }
+
+}
